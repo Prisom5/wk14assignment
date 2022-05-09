@@ -1,0 +1,80 @@
+.btn{ font-size: 20px }
+
+.btn{
+  background-color: black;
+}
+
+.navbar .navbar-brand {
+  font-size: 24px;
+}
+h1{
+  font-weight: 600;
+  border-width: 5px;
+  text-align: center;
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-left: 250px;
+}
+.row{
+  display: flex;
+}
+.column{
+  flex: 33.33%;
+  padding: 20px;
+}
+@media screen and (orientation: portrait){
+  nav li {
+    margin-left: none;
+    }
+  
+}
+@media screen and (orientation: portrait){
+.container-nav {
+  display: block;
+  text-align: center;
+  }
+}
+@media screen and (orientation: portrait){
+  nav{
+    width: 100%;
+    margin: 0 auto;
+    list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    } 
+  }
+  @media screen and (orientation: portrait){
+    nav ul{
+      display: block;
+      text-align: center;
+      margin-bottom: 10px;
+      padding-block: 10px;
+    }
+  }
+  @media screen and (orientation: portrait) {
+    .spacing-large {
+      letter-spacing: 15px;
+      text-align: center;
+      text-indent: 15px;
+    }
+  }
+  @media screen and (orientation: portrait) {
+    img{
+      max-width: 100%;
+    }
+    img{
+    max-width: 100%;
+    min-width: 300px;
+    height: auto;
+    }
+    a{
+      margin-left: 150px;
+        width: 100%;
+      }
+    }
